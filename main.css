@@ -1,0 +1,32 @@
+body {
+    font-size: 1rem;
+    font-family: arial;
+}
+
+#fstop-list {
+    display: inline-block;
+    flex-direction: column;
+    margin: auto;
+}
+
+.fstep-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fstep {
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.fstep.highlighted {
+    background: rgb(255, 213, 122);
+    border: 1px solid rgb(245, 188, 66);
+    box-sizing: border-box;
+    color: black;
+}
+
+.fstep.selected {
+    background: rgb(31, 106, 190);
+    color: white;
+}
